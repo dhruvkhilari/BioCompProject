@@ -1,0 +1,13 @@
+The required Python packages are:
+
+biopython==1.83
+matplotlib==3.8.4
+numpy==1.26.4
+
+How to Use:
+-----------
+1. Place your GenBank (.gbk) file in a known directory.
+
+2. Update the path to the GenBank file in the script:
+   ```python
+   gbk_path = r"file_path"
